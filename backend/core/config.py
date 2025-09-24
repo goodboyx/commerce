@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     ALLOWED_HOSTS: List[str] = ["*"]
     
     # 데이터베이스 설정
-    DATABASE_URL: str = "mysql+pymysql://careroot:zpdjfnxm%40ss@114.108.132.166:3306/careroot"
+    DATABASE_URL: str = "mysql+pymysql://mysql_id:mysql_password@localhost:3306/database_name"
     DATABASE_POOL_SIZE: int = 20
     DATABASE_MAX_OVERFLOW: int = 30
     
